@@ -1,0 +1,13 @@
+Criar um controle de finanças em python.
+
+Etapa1
+
+1 - Criar um dataframe para inserir os gastos de cada mês
+Variavéis  necessarias
+
+Data
+Valor
+Descrição
+Tema
+
+2 - Criar uma função para inserir os valores

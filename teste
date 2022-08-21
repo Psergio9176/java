@@ -1,1 +1,21 @@
-print('Hello world')
+from inspect import Arguments
+import pandas as pd
+import numpy as np
+
+
+dadonew = [[20220803,60.00,'Conta do celular','Pessoal','Cred']]
+
+August = pd.DataFrame(dadonew, columns=['Data','Valor','Descrição','Tema','Forma de pgto'])
+
+new = [{'Data': 20220806,'Valor':278.12,'Descrição':'Ração dos cachorros','Tema':'Animais','Forma de pgto':'Cred'}]
+#dadonew = np.array([[20220806,278.12,'Ração dos cachorros','Animais','Forma de Pgto']])
+
+#dadonew.merge(August, how='left')
+
+August = August.append(new, ignore_index= False)
+
+print(August)
+
+August.to_csv('August.csv')
+
+August = pd.rear_csv('August.csv')
