@@ -1,3 +1,14 @@
-,Data,Valor,Descrição,Tema,Forma de pgto
-0,20220803,60.0,Conta do celular,Pessoal,Cred
-0,20220806,278.12,Ração dos cachorros,Animais,Cred
+Data,Valor,Descrição,Tema,Forma de pgto
+20220803,60.0,Conta do celular,Pessoal,Cred
+20220806,278.12,Ração dos cachorros,Animais,Cred
+20220806,17.0,Lanche no fut do Gui,Alimentacao,Deb
+20220806,46.0,Cerveja na adega,Lazer,Cred
+20220806,11.99,Compra de comida minimart,Alimentacao,Cred
+20220808,30.0,Abastecimento da moto,Transporte,Cred
+20220809,50.0,Abastecimento do carro,Transporte,Cred
+20220809,8.5,Cafe no fechando gol,Lazer,Deb
+20220811,25.5,Cerveja,Lazer,Deb
+20220813,39.97,Lanche,Alimentacao,Deb
+20220814,48.0,Sem descricao,Sem descricao,Cred
+20220814,50.0,Abastecimento do carro,Transporte,Cred
+20220815,138.9,Ferramenta de trabalho,Pessoal,Cred
