@@ -1,6 +1,7 @@
 from operator import index
 import pandas as pd
 import numpy as np
+#from tkinter import *
 
 #dadonew = [[20220803,60.00,'Conta do celular','Pessoal','Cred']]
 
@@ -16,21 +17,35 @@ import numpy as np
 #print(August)
 
 
-August = pd.read_csv('August.csv')
 
+August = pd.read_csv('August.csv')
+#janela = Tk()
 print(August)
+
+fim = 2
 
 #def insert_data(Data,Valor,Descricao,Tema,Forma_de_pgto):
-Data = int(input('Insira a data da compra: '))
-Valor = float(input('Insira o valor:R$ '))
-Descricao = input('Insira a Descrição da compra: ')
-Tema = input('Insira o Tema: ')
-Forma_de_pgto = input('Insira a Forma de pagamento: ')
+while fim == 2:
+        
+    Data = int(input('Insira a data da compra: '))
+    Valor = float(input('Insira o valor:R$ '))
+    Descricao = input('Insira a Descrição da compra: ')
+    Tema = input('Insira o Tema: ')
+    Forma_de_pgto = input('Insira a Forma de pagamento: ')
 
-new = [{'Data': Data,'Valor':Valor,'Descrição':Descricao,'Tema':Tema,'Forma de pgto':Forma_de_pgto}]
+    new = [{'Data': Data,'Valor':Valor,'Descrição':Descricao,'Tema':Tema,'Forma de pgto':Forma_de_pgto}]
 
-August = August.append(new, index = None)
+    August = August.append(new)
 
-print(August)
+    print(August)
 
-August.to_csv('August.csv')
+    August.to_csv('August.csv')
+    
+    fim = int(input('Digite 1 para stop e 2 para continuar:'))
+else:
+    print("Fim do preenchimentos!")
+
+
+
+
+#janela.mainloop()
